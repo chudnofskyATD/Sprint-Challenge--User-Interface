@@ -201,9 +201,14 @@ footer nav a {
 }
 
 .missing-content-right-navbar{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-grow: 2;
+    padding: 0px 20px 0px 20px;
 }
 
 .navbar a{
@@ -214,5 +219,22 @@ footer nav a {
     width: 100%;
     height: auto;
 }
+.missing-content-row-2 .image-highway {
+    width: 760px;
+    height: auto;
+}
+/* styling height for sections */
 
+/* div.missing-content {
+    height:
+} */
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px 0px 20px;
+}
