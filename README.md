@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+We can approach the concept of semantic HTML using the newspaper analogy; an HTML page is a digital representation of a newspaper. It contains several sections which can be divided into divisions(divs). There are also many other elements with which a reader or user can easily access the pages.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
