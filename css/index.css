@@ -144,3 +144,131 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* this is where dev starts */
+
+/* background colors for boxes  */
+.boxes .box:nth-child(1){
+    background-color:teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8){
+    background-color:hotpink;
+}
+
+.boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+
+/* styling missing content */
+.missing-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.missing-content-row-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.missing-content-right-navbar{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    
+    /* flex-grow: 2;*/
+    padding: 0px 20px 0px 20px;
+    /* background-color: red; */
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    padding-right: 60px;
+}
+
+
+.missing-content-row-2 .missing-content-left-img{
+    width: 100%;
+    height: auto;
+}
+.missing-content-row-2 .image-highway {
+    width: 760px;
+    height: auto;
+}
+
+
+.container, .container-about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 20px 0px 20px;
+}
+.upper-middle-content-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lower-middle-content-about{
+    display: flex;
+    flex-direction: row;
+}
+
+.left-content, .left-content-2{
+    padding-right: 20px;
+    /* padding-bottom: 10px; */
+}
+.left-img, .left-img-2, .right-img, .right-img-2 {
+    padding-bottom: 10px;
+}
+
+.button-1, .button-2, .button-3, .button-4 {
+    border: 2px solid black;;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    height: 30px;
+    padding: 4px;
+}
+hr{
+    border-top: 1px dashed;
+}
